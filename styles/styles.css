@@ -7,11 +7,13 @@
     --secondary-colors-font: #757575;
     --accent-color-font: #2196F3;
     --hero-color: #FFFFFF;
+    --simply-white: #FFFFFF;
     --adrees-colors: rgba(255, 255, 255, 0.6);
     /* bg-colors */
     --main-bg: #fff;
     --secondary-bg: #F5F4FA;
-    --footer-hero-bg: #2F303A;
+    --hero-bg: #2F303A;
+    --footer-bg: #2F303A;
     /* others */ 
     --btn-hero: #2196F3;
     --btn-hover: #188CE8;
@@ -28,19 +30,23 @@ body {
 /* common styles start */
 .link {
     text-decoration: none;
-    font-style: normal 
+    font-style: normal;
 }
 
 .list {
     list-style: none;
 }
 
-.section {
+.section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;    
+}
+
+.link-portfolio {
+    text-decoration: none;
 }
 
 /* <!-- Section header --> */
@@ -75,23 +81,23 @@ body {
 .header-mail {
     font-weight: 500;
     letter-spacing: 0.02em;
-    color: var(--secondary-colors-font)
+    color: var(--secondary-colors-font);
 }
 
 .header-mail:hover,
 .header-mail:focus {
-    color: var(--accent-color-font)
+    color: var(--accent-color-font);
 }
 
 .header-tel {
     font-weight: 500;
     letter-spacing: 0.02em;
-    color: var(--secondary-colors-font)
+    color: var(--secondary-colors-font);
 }
 
 .header-tel:hover,
 .header-tel:focus {
-    color: var(--accent-color-font)
+    color: var(--accent-color-font);
 }
 
 /* Section Hero */
@@ -100,7 +106,7 @@ body {
     height: 600px;
     left: 0px;
     top: 80px;
-    background: var(--footer-hero-bg)
+    background-color: var(--hero-bg);
 }
 
 .hero-title {
@@ -173,7 +179,7 @@ body {
 
 /* <!-- Section footer --> */
 .footer {
-    background-color: var(--footer-hero-bg);
+    background-color: var(--footer-bg);
 }
 
 .footer-logo {
@@ -182,18 +188,18 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--hero-color); 
+    color: var(--simply-white); 
 }
 
 .footer-address {
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--hero-color);
+    color: var(--simply-white);
 }
 
 .footer-address:hover,
 .footer-address:focus {
-    color: var(--accent-color-font)
+    color: var(--accent-color-font);
 }
 
 
@@ -205,7 +211,7 @@ body {
 
 .footer-mail:hover,
 .footer-mail:focus {
-    color: var(--accent-color-font)
+    color: var(--accent-color-font);
 }
 
 .footer-tel {
@@ -216,7 +222,7 @@ body {
 
 .footer-tel:hover,
 .footer-tel:focus {
-    color: var(--accent-color-font)
+    color: var(--accent-color-font);
 }
 
 
@@ -238,7 +244,7 @@ body {
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    color: var(--hero-color);
+    color: var(--simply-white);
     background-color: #188CE8;  
 }
 
@@ -248,7 +254,6 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-colors-font);
-    text-decoration: none;    
 }
 
 .portfolio-item {
@@ -256,7 +261,6 @@ body {
     line-height: 1.8;
     letter-spacing: 0.03em;
     color: var(--secondary-colors-font);
-    text-decoration: none;
 }
 
 

@@ -45,10 +45,6 @@ body {
     letter-spacing: 0.03em;    
 }
 
-.link-portfolio {
-    text-decoration: none;
-}
-
 /* <!-- Section header --> */
 .header-logo {
     font-family: var(--logo-fonts);
